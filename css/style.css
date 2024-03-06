@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(white, white) center top no-repeat, linear-gradient(135deg, #00B692, #00B692, #474341) center bottom no-repeat;
+    background-size: 100% 350px, 100% auto;
+    background-attachment: fixed;
+}
+
+.app-bar {
+    display: flex;
+    background-image: linear-gradient(90deg, #00B692, #00B692, #474341);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 2px !important;
+}
+.lang {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+
+}
+.lang p {
+    margin: 0;
+}
+.content {
+    padding: 150px 0 40px;;
+}
+
+.app-bar .logo {
+    height: 80px;
+    width: 80px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+input,
+select {
+    border-width: 0;
+    border-bottom: #b3b3b3 1px dashed;
+    background-color: unset;
+
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-bottom: black 2px dashed;
+}
+
+.card {
+    background-color: #f7f7f7;
+}
+
+select {
+    width: 200px;
+}
+
+.tit {
+    display: flex;
+    flex-direction: row;
+}
+
+.ico {
+    width: 25px;
+    height: 25px;
+}
+
+.second::before {
+    padding-left: 20px;
+    font-weight: bold;
+    position: relative;
+    content: "Hotel Details :";
+    width: 200px;
+    height: 25px;
+    display: none;
+    background-color: #F4B24F;
+    color: white;
+    top: -10px;
+    border-radius: 5px;
+}
+.lab {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4B24F;
+    width: 200px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+.lab p {
+    margin: 0;
+}
+button {
+    color: white;
+    font-weight: bold;
+    background-color: #F4B24F;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 30px;
+}
+.links {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
