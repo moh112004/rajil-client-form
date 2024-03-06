@@ -25,6 +25,9 @@ body {
 .lang p {
     margin: 0;
 }
+.order-id::content {
+    font-size: 50px;
+}
 .content {
     padding: 150px 0 40px;;
 }
