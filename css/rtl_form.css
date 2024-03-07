@@ -1,0 +1,12 @@
+.lang a {
+direction: ltr;
+}
+input,
+select {
+    margin-left: 0;
+    margin-right: 30px;
+}
+.wa {
+    direction: ltr;
+    text-align: end;
+}

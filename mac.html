@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAC Address</title>
+</head>
+<body>
+  <h1>MAC Address:</h1>
+  <p id="macAddress"></p>
+
+  <script>
+    const { networkInterfaces } = require('os');
+    const macAddressElement = document.getElementById('macAddress');
+
+    // Get the MAC address of the first network interface
+    const networkInterfacesInfo = networkInterfaces();
+    const firstInterface = Object.values(networkInterfacesInfo)[0];
+    const macAddress = firstInterface && firstInterface[0].mac;
+
+    macAddressElement.textContent = macAddress || 'Not available';
+  </script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: linear-gradient(white, white) center top no-repeat, linear-gradient(135deg, #00B692, #00B692, #015B4A) center bottom no-repeat;
+    background-size: 100% 350px, 100% auto;
+    background-attachment: fixed;
+    font-family: "Almarai", sans-serif;
+
+}
+
+p {
+    margin: 0;
+}
+.hor-line {
+    width: 100%;
+    height: 50px;
+}
+.app-bar {
+    display: flex;
+    background-image: linear-gradient(90deg, #00B692, #00B692, #015B4A);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 2px !important;
+}
+
+.lang a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.content {
+    padding: 150px 10px 90px;
+
+}
+.app-bar .logo {
+    height: 80px;
+    width: 80px;
+}
+input,
+select {
+    border-width: 0;
+    border-bottom: #b3b3b3 1px dashed;
+    background-color: unset;
+    width: 250px;
+    margin-left: 30px;
+}
+input:focus,
+select:focus {
+    outline: none;
+    border-bottom: black 2px dashed;
+}
+.order-id {
+    font-size: 30px;
+    font-weight: 500;
+    width: 120px;
+    color: #00B692;
+    
+
+}
+.card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+select {
+    width: 200px;
+}
+.tit {
+    display: flex;
+    flex-direction: row;
+}
+.ico {
+    width: 25px;
+    height: 25px;
+}
+.second::before {
+    padding-left: 20px;
+    font-weight: bold;
+    position: relative;
+    content: "Hotel Details :";
+    width: 200px;
+    height: 25px;
+    display: none;
+    background-color: #F4B24F;
+    color: white;
+    top: -10px;
+    border-radius: 5px;
+}
+.lab {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4B24F;
+    width: 200px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+.wa {
+    color: #808080;
+}
+button {
+    color: white;
+    font-weight: bold;
+    background-color: #F4B24F;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 30px;
+}
+.sen {
+    color: #808080;
+}
