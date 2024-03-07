@@ -12,7 +12,7 @@ body {
     z-index: 2;
     padding: 2px !important;
 }
-.lang {
+.lang a{
     position: absolute;
     top: 10px;
     left: 10px;
@@ -20,7 +20,8 @@ body {
     flex-direction: row;
     font-size: 25px;
     align-items: center;
-
+    text-decoration: none;
+    color: white;
 }
 .lang p {
     margin: 0;
@@ -109,22 +110,4 @@ button {
     border-radius: 10px;
     border: none;
     padding: 5px 30px;
-}
-.links {
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.links div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contact {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
 }
