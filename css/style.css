@@ -45,13 +45,20 @@ select {
     border-width: 0;
     border-bottom: #b3b3b3 1px dashed;
     background-color: unset;
-    width: 350px;
+    width: 300px;
     margin-left: 30px;
 }
 input:focus,
 select:focus {
     outline: none;
     border-bottom: black 2px dashed;
+}
+.order-id {
+    font-size: 30px;
+    font-weight: 500;
+    width: 120px;
+    
+
 }
 .card {
     background-color: #f7f7f7;
