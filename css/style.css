@@ -3,7 +3,10 @@ body {
     background-size: 100% 350px, 100% auto;
     background-attachment: fixed;
 }
-
+.hor-line {
+    width: 100%;
+    height: 50px;
+}
 .app-bar {
     display: flex;
     background-image: linear-gradient(90deg, #00B692, #00B692, #015B4A);
