@@ -1,3 +1,8 @@
 .lang a {
 direction: ltr;
 }
+input,
+select {
+    margin-left: 0;
+    margin-right: 30px;
+}

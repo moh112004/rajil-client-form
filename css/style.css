@@ -45,7 +45,8 @@ select {
     border-width: 0;
     border-bottom: #b3b3b3 1px dashed;
     background-color: unset;
-
+    width: 400px;
+    margin-left: 30px;
 }
 
 input:focus,
@@ -56,6 +57,7 @@ select:focus {
 
 .card {
     background-color: #f7f7f7;
+    border-radius: 10px;
 }
 
 select {
