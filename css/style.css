@@ -2,6 +2,7 @@ body {
     background: linear-gradient(white, white) center top no-repeat, linear-gradient(135deg, #00B692, #00B692, #015B4A) center bottom no-repeat;
     background-size: 100% 350px, 100% auto;
     background-attachment: fixed;
+    
 }
 
 p {
@@ -31,11 +32,8 @@ p {
     text-decoration: none;
     color: white;
 }
-.order-id::content {
-    font-size: 50px;
-}
 .content {
-    padding: 150px 0 40px;
+    padding: 150px 10px 90px;
 
 }
 .app-bar .logo {
@@ -47,7 +45,7 @@ select {
     border-width: 0;
     border-bottom: #b3b3b3 1px dashed;
     background-color: unset;
-    width: 400px;
+    width: 350px;
     margin-left: 30px;
 }
 input:focus,
